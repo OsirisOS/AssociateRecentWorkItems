@@ -4,6 +4,10 @@
     <Identity Id="1E6404F5-0ECA-4B62-93A5-D684FED8607E" Version="1.0.0.2" Language="en-US" Publisher="Inmeta" />
     <DisplayName>Inmeta AssociateRecentWorkItems</DisplayName>
     <Description xml:space="preserve">Inmeta AssociateRecentWorkItems Team Explorer extension</Description>
+    <License>License.txt</License>
+    <Icon>InmetaCrayonLogo.bmp</Icon>
+    <PreviewImage>PreviewImage.png</PreviewImage>
+    <Tags>Inmeta Visual Studio 2012 ALM Team Explorer</Tags>
   </Metadata>
   <Installation InstalledByMsi="false">
     <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
