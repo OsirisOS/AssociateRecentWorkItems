@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="1E6404F5-0ECA-4B62-93A5-D684FED8607E" Version="1.0.0.2" Language="en-US" Publisher="Inmeta" />
+    <Identity Id="1E6404F5-0ECA-4B62-93A5-D684FED8607E" Version="1.0.0.3" Language="en-US" Publisher="Inmeta" />
     <DisplayName>Inmeta AssociateRecentWorkItems</DisplayName>
-    <Description xml:space="preserve">Inmeta AssociateRecentWorkItems Team Explorer extension</Description>
+    <Description xml:space="preserve">Inmeta AssociateRecentWorkItems Team Explorer extension lets you easily associate the work items that are are working on to your pending changes. It shows the work items (max 5) that you have assigned with the last 20 changesets in the current team project.</Description>
     <License>License.txt</License>
     <Icon>InmetaCrayonLogo.bmp</Icon>
     <PreviewImage>PreviewImage.png</PreviewImage>
