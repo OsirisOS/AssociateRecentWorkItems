@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="1E6404F5-0ECA-4B62-93A5-D684FED8607E" Version="1.0.0.3" Language="en-US" Publisher="Inmeta" />
-    <DisplayName>Inmeta AssociateRecentWorkItems</DisplayName>
+    <Identity Id="EA66F91C-697E-48BF-BC2E-3F6DD8DBBFE3" Version="1.0.0.0" Language="en-US" Publisher="Inmeta" />
+    <DisplayName>Inmeta AssociateRecentWorkItems VS2013</DisplayName>
     <Description xml:space="preserve">Inmeta AssociateRecentWorkItems Team Explorer extension lets you easily associate the work items that are are working on to your pending changes. It shows the work items (max 5) that you have assigned with the last 20 changesets in the current team project.</Description>
     <License>License.txt</License>
     <Icon>InmetaCrayonLogo.bmp</Icon>
     <PreviewImage>PreviewImage.png</PreviewImage>
-    <Tags>Inmeta Visual Studio 2012 ALM Team Explorer</Tags>
+    <Tags>Inmeta Visual Studio 2013 ALM Team Explorer</Tags>
   </Metadata>
   <Installation InstalledByMsi="false">
-    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="12.0" />
   </Installation>
   <Dependencies>
     <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
-    <Dependency Id="Microsoft.VisualStudio.MPF.11.0" DisplayName="Visual Studio MPF 11.0" d:Source="Installed" Version="11.0" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.12.0" DisplayName="Visual Studio MPF 12.0" d:Source="Installed" Version="[12.0,13.0)" />
   </Dependencies>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
