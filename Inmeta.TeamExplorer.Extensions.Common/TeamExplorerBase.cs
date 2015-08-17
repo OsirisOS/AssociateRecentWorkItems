@@ -4,7 +4,7 @@ using System.Diagnostics;
 using Microsoft.TeamFoundation.Client;
 using Microsoft.TeamFoundation.Controls;
 
-namespace Inmeta.TeamExplorer.Extensions.Common
+namespace Osiris.TeamExplorer.Extensions.Common
 {
     /// <summary>
     /// Team Explorer plugin common base class.

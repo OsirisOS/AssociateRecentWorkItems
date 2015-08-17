@@ -3,14 +3,14 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
-using Inmeta.TeamExplorer.Extensions.Common;
 using Microsoft.TeamFoundation.Client;
 using Microsoft.TeamFoundation.Controls;
 using Microsoft.TeamFoundation.VersionControl.Client;
 using Microsoft.TeamFoundation.VersionControl.Controls.Extensibility;
 using Microsoft.VisualStudio.TeamFoundation.WorkItemTracking;
+using Osiris.TeamExplorer.Extensions.Common;
 
-namespace Inmeta.AssociateRecentWorkItems
+namespace Osiris.AssociateRecentWorkItems
 {
     /// <summary>
     /// Selected file info section.

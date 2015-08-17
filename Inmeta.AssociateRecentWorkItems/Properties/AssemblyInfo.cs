@@ -11,11 +11,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Inmeta.AssociateRecentWorkItems")]
-[assembly: AssemblyDescription("Inmeta.AssociateRecentWorkItems extension for Team Explorer 2012")]
+[assembly: AssemblyTitle("Osiris.AssociateRecentWorkItems")]
+[assembly: AssemblyDescription("Osiris.AssociateRecentWorkItems extension for Visual Studio 2015")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Inmeta")]
-[assembly: AssemblyProduct("Inmeta.AssociateRecentWorkItems")]
+[assembly: AssemblyCompany("Osiris")]
+[assembly: AssemblyProduct("Osiris.AssociateRecentWorkItems")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]   
@@ -33,8 +33,8 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
 
-[assembly: AssemblyVersion("1.0.0.3")]
-[assembly: AssemblyFileVersion("1.0.0.3")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
 
 
 

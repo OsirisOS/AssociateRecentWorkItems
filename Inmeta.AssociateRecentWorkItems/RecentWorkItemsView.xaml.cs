@@ -10,7 +10,7 @@ using Microsoft.TeamFoundation.VersionControl.Client;
 using Microsoft.TeamFoundation.VersionControl.Controls.Extensibility;
 using Microsoft.VisualStudio.TeamFoundation.WorkItemTracking;
 
-namespace Inmeta.AssociateRecentWorkItems
+namespace Osiris.AssociateRecentWorkItems
 {
     public partial class RecentWorkItemsView : UserControl
     {

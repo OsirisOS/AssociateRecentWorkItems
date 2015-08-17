@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osiris.AssociateRecentWorkItems", "Inmeta.AssociateRecentWorkItems\Osiris.AssociateRecentWorkItems.csproj", "{192AEBE3-D6AE-46F5-A75B-2D351E88EFCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osiris.TeamExplorer.Extensions.Common", "Inmeta.TeamExplorer.Extensions.Common\Osiris.TeamExplorer.Extensions.Common.csproj", "{C31C8E46-16E4-49A3-B8A5-96BDF9FF22E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{53C1D73B-DE89-4EAA-BC08-24125719C6EE}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192AEBE3-D6AE-46F5-A75B-2D351E88EFCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192AEBE3-D6AE-46F5-A75B-2D351E88EFCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192AEBE3-D6AE-46F5-A75B-2D351E88EFCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192AEBE3-D6AE-46F5-A75B-2D351E88EFCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31C8E46-16E4-49A3-B8A5-96BDF9FF22E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31C8E46-16E4-49A3-B8A5-96BDF9FF22E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31C8E46-16E4-49A3-B8A5-96BDF9FF22E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31C8E46-16E4-49A3-B8A5-96BDF9FF22E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
