@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="A9BC90B5-F2BE-4950-9BC3-620D9228A8B6" Version="1.0.0.0" Language="en-US" Publisher="Osiris" />
+    <Identity Id="A9BC90B5-F2BE-4950-9BC3-620D9228A8B6" Version="1.0.0" Language="en-US" Publisher="Osiris" />
     <DisplayName>Osiris AssociateRecentWorkItems VS2015</DisplayName>
     <Description xml:space="preserve">Osiris AssociateRecentWorkItems Team Explorer extension lets you easily associate the work items that are are working on to your pending changes. It shows the work items (max 5) that you have assigned with the last 20 changesets in the current team project.</Description>
     <License>License.txt</License>
