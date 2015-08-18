@@ -192,7 +192,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Inmeta.TeamExplorer.Extensions.Common\Osiris.TeamExplorer.Extensions.Common.csproj">
+    <ProjectReference Include="..\Osiris.TeamExplorer.Extensions.Common\Osiris.TeamExplorer.Extensions.Common.csproj">
       <Project>{C31C8E46-16E4-49A3-B8A5-96BDF9FF22E1}</Project>
       <Name>Osiris.TeamExplorer.Extensions.Common</Name>
     </ProjectReference>
