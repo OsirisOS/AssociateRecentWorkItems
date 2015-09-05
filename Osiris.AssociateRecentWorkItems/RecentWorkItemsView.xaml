@@ -58,6 +58,28 @@
             </ListView.ContextMenu>
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver"
+                                             Value="True">
+                                        <Setter Property="Background"
+                                                Value="{DynamicResource {x:Static vsshell:VsBrushes.CommandBarHoverKey}}" />
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                                <Border BorderBrush="Transparent"
+                                        BorderThickness="0"
+                                        Background="{TemplateBinding Background}">
+                                    <GridViewRowPresenter HorizontalAlignment="Stretch"
+                                                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}"
+                                                          Width="Auto"
+                                                          Margin="0,2"
+                                                          Content="{TemplateBinding Content}" />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
                     <Setter Property="Foreground" Value="{DynamicResource {x:Static vsshell:VsBrushes.ToolWindowTextKey}}"/>
                     <Setter Property="ToolTip">
                         <Setter.Value>
