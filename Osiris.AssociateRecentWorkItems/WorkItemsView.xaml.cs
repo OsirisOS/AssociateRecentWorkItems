@@ -6,15 +6,14 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using Microsoft.TeamFoundation.Client;
 using Microsoft.TeamFoundation.Controls;
-using Microsoft.TeamFoundation.VersionControl.Client;
 using Microsoft.TeamFoundation.VersionControl.Controls.Extensibility;
 using Microsoft.VisualStudio.TeamFoundation.WorkItemTracking;
 
 namespace Osiris.AssociateRecentWorkItems
 {
-    public partial class RecentWorkItemsView : UserControl
+    public partial class WorkItemsView : UserControl
     {
-        public RecentWorkItemsView()
+        public WorkItemsView()
         {
             InitializeComponent();
         }
@@ -22,9 +21,9 @@ namespace Osiris.AssociateRecentWorkItems
         /// <summary>
         /// Parent section.
         /// </summary>
-        public RecentWorkItemsSection ParentSection
+        public WorkItemsSectionBase ParentSection
         {
-            get { return (RecentWorkItemsSection)GetValue(ParentSectionProperty); }
+            get { return (WorkItemsSectionBase)GetValue(ParentSectionProperty); }
             set { SetValue(ParentSectionProperty, value); }
         }
 
@@ -33,7 +32,7 @@ namespace Osiris.AssociateRecentWorkItems
         public DocumentService DocumentService { get; set; }
 
         public static readonly DependencyProperty ParentSectionProperty =
-            DependencyProperty.Register("ParentSection", typeof(RecentWorkItemsSection), typeof(RecentWorkItemsView));
+            DependencyProperty.Register("ParentSection", typeof(WorkItemsSectionBase), typeof(WorkItemsView));
 
 
         private void workItemList_MouseDoubleClick(object sender, MouseButtonEventArgs e)
@@ -47,7 +46,7 @@ namespace Osiris.AssociateRecentWorkItems
             if (item == null)
                 return;
 
-            var selectedWorkItem = item as AssociatedWorkItemInfo;
+            var selectedWorkItem = item as WorkItemInfo;
             if (selectedWorkItem == null)
                 return;
 
@@ -75,7 +74,7 @@ namespace Osiris.AssociateRecentWorkItems
                 if (item == null)
                     return;
 
-                var selectedWorkItem = item as AssociatedWorkItemInfo;
+                var selectedWorkItem = item as WorkItemInfo;
                 if (selectedWorkItem == null)
                     return;
 
