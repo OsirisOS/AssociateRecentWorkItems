@@ -27,7 +27,11 @@ namespace Osiris.AssociateRecentWorkItems
 
             var workItems = new List<WorkItemInfo>();
 
-            var results = store.Query("Select [ID], [Title] From WorkItems Where [Assigned to] = @Me Order By [Created Date] desc");
+            var results = store.Query(@"
+Select [ID], [Title] 
+From WorkItems 
+Where [System.TeamProject] = '" + context.TeamProjectName + @"' AND [Assigned to] = @Me 
+Order By [Created Date] desc");
 
             foreach (WorkItem workItem in results)
             {
